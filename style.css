@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+
+
+body {
+  background: #74c69d;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+  margin-left: 315px;
+}
+
+.Beta-1 {
+  float: right;
+}
+
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+.text-left button {
+  margin-top: 25px;
+}
+
+.text-left button:hover {
+  border: 1px solid rgb(88, 88, 255);
+  scale: 1.2;
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    margin-left: -3000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-brand {
+    margin-left: -300px;
+  }
+
+  .navbar-nav li:first-child {
+    display: initial;
+  }
+}
+
+@media (min-width: 1380px) {
+  li:nth-child(2) {
+    margin-left: 850px;
+  }
+}
+
+li:active{
+  color: blueviolet;
+}
+
+
+
+
+@media (max-width: 376px) {
+  .Zero {
+    margin-right: 150px;
+  }
+
+   
+
+  img {
+    width: 80%;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1201px) {
+  img {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 569px) {
+  img {
+    width: 300px;
+  }
+
+  .Zero {
+    margin-left: 300px;
+    
+  }
+
+ 
+}
+
+@media (max-width: 769px){
+  h1,h2,h3,h4,h5{
+    font-size: 1rem;
+  }
+  
+  .navbar-toggler{
+    margin-right: 100PX;
+  }
+}
